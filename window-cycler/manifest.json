@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Window Cycler",
+  "version": "1.0",
+  "description": "周期的に小さなウィンドウを開閉します。",
+  "permissions": ["windows"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
